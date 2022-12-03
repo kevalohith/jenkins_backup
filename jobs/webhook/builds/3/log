@@ -1,0 +1,55 @@
+Started by GitHub push by kevalohith
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevalohith/shellscripts.git # timeout=10
+Fetching upstream changes from https://github.com/kevalohith/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/kevalohith/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 3fc251ef6b6a3b1ea6ab19a56535afbabf9b66d1 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3fc251ef6b6a3b1ea6ab19a56535afbabf9b66d1 # timeout=10
+Commit message: "Update script1.sh"
+ > git rev-list --no-walk 0b5e29d730f40580ec0904512b9b8f4ddbec9d86 # timeout=10
+[webhook] $ /bin/sh -xe /tmp/jenkins4004656832620023733.sh
++ ls
+script.sh
+script1.sh
+script10.sh
+script11.sh
+script12.sh
+script13.sh
+script14.sh
+script15.sh
+script16.sh
+script17.sh
+script18.sh
+script19.sh
+script2.sh
+script20.sh
+script21.sh
+script22.sh
+script23.sh
+script24.sh
+script25.sh
+script26.sh
+script27.sh
+script28.sh
+script3.sh
+script31.sh
+script32.sh
+script33.sh
+script34.sh
+script35.sh
+script4.sh
+script5.sh
+script6.sh
+script7.sh
+script8.sh
+script9.sh
+Finished: SUCCESS

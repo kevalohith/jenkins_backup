@@ -1,0 +1,26 @@
+Started by upstream project "[8mha:////4PTGLWIJBfT/qsDIzAfSOm/3P2q07kiUW1CZFVu4ObREAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP3gxNyCnFRDfQAtycvZwgAAAA==[0mSample1" build number [8mha:////4BWbjJl2b0sT5vW8Ord1VavaeJ+O8MXfkiGcf7g+SccyAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwk/eDE3IKcVEN9IwBN/9JAwwAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4KO6GJC1920+5EIfMbW57Yj9Tg6Xvo7o262yRXwIqCUnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97NSyxJz8jMySDAAKCWR7xQAAAA==[0mKeval Lohith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Sample2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Sample2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevalohith/shellscripts.git # timeout=10
+Fetching upstream changes from https://github.com/kevalohith/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/kevalohith/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision abb50ef0961e64954b2e70132613b98d213ee33b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f abb50ef0961e64954b2e70132613b98d213ee33b # timeout=10
+Commit message: "Update script4.sh"
+ > git rev-list --no-walk abb50ef0961e64954b2e70132613b98d213ee33b # timeout=10
+[Sample2] $ /bin/sh -xe /tmp/jenkins2375636171394424493.sh
++ sh script4.sh 5 5
+enter the first number
+enter the second number
+the sum of two integer entered is 10
+Finished: SUCCESS

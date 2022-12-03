@@ -1,0 +1,61 @@
+Started by user [8mha:////4KO6GJC1920+5EIfMbW57Yj9Tg6Xvo7o262yRXwIqCUnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97NSyxJz8jMySDAAKCWR7xQAAAA==[0mKeval Lohith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Sample2
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kevalohith/shellscripts.git
+ > git init /var/lib/jenkins/workspace/Sample2 # timeout=10
+Fetching upstream changes from https://github.com/kevalohith/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/kevalohith/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kevalohith/shellscripts.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision abb50ef0961e64954b2e70132613b98d213ee33b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f abb50ef0961e64954b2e70132613b98d213ee33b # timeout=10
+Commit message: "Update script4.sh"
+First time build. Skipping changelog.
+[Sample2] $ /bin/sh -xe /tmp/jenkins14663020731640967651.sh
++ ls
+script.sh
+script1.sh
+script10.sh
+script11.sh
+script12.sh
+script13.sh
+script14.sh
+script15.sh
+script16.sh
+script17.sh
+script18.sh
+script19.sh
+script2.sh
+script20.sh
+script21.sh
+script22.sh
+script23.sh
+script24.sh
+script25.sh
+script26.sh
+script27.sh
+script28.sh
+script3.sh
+script31.sh
+script32.sh
+script33.sh
+script34.sh
+script35.sh
+script4.sh
+script5.sh
+script6.sh
+script7.sh
+script8.sh
+script9.sh
++ sh shellscripts/script4.sh
+sh: 0: cannot open shellscripts/script4.sh: No such file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

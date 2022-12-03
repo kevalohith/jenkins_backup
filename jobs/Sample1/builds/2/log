@@ -1,0 +1,9 @@
+Started by user [8mha:////4KO6GJC1920+5EIfMbW57Yj9Tg6Xvo7o262yRXwIqCUnAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYB/dLi1CL97NSyxJz8jMySDAAKCWR7xQAAAA==[0mKeval Lohith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Sample1
+[Sample1] $ /bin/sh -xe /tmp/jenkins5489995687977438934.sh
++ ls
++ pwd
+/var/lib/jenkins/workspace/Sample1
+Triggering a new build of [8mha:////4Ewats0ykrn6uG1TUohe+W9FroKuqCcZL48upynPgQm6AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP3gxNyCnFQjfQDumubywgAAAA==[0mSample2
+Finished: SUCCESS

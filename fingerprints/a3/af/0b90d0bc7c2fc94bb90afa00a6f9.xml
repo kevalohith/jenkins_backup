@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-12-01 02:23:33.622 UTC</timestamp>
+  <md5sum>a3af0b90d0bc7c2fc94bb90afa00a6f9</md5sum>
+  <fileName>Credential id=f45ae5ac-89f9-4ce8-b92e-aec43d7b911f name=stwo/******</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@1189.vf61b_a_5e2f62e">
+      <timestamp>1670030393161</timestamp>
+      <nodeName>slavetwo</nodeName>
+      <timestamp0>1669964551848</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

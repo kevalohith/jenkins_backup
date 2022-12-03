@@ -1,0 +1,26 @@
+Started by timer
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Sample2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Sample2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kevalohith/shellscripts.git # timeout=10
+Fetching upstream changes from https://github.com/kevalohith/shellscripts.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/kevalohith/shellscripts.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 3fc251ef6b6a3b1ea6ab19a56535afbabf9b66d1 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3fc251ef6b6a3b1ea6ab19a56535afbabf9b66d1 # timeout=10
+Commit message: "Update script1.sh"
+ > git rev-list --no-walk 3fc251ef6b6a3b1ea6ab19a56535afbabf9b66d1 # timeout=10
+[Sample2] $ /bin/sh -xe /tmp/jenkins4120558247603035150.sh
++ sh script4.sh 5 5
+enter the first number
+enter the second number
+the sum of two integer entered is 10
+script is succesful
+done
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-28 17:40:04.900 UTC</timestamp>
+  <md5sum>0e4c066c5014e1ffe5ac92971bc729f2</md5sum>
+  <fileName>Credential id=MS name=slave/******</fileName>
+  <usages>
+    <entry>
+      <string>installtomcat</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
